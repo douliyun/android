@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" 
+    android:background="@drawable/nice">
+    
+    <TextView 
+        android:id="@+id/wenzi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:text="选择你喜欢的登录方式"
+        android:textColor="#3DB0F4"
+        android:gravity="center"
+        android:textSize="35dp"/>
+    
+    <Button 
+        android:id="@+id/shouji"
+        android:text="手机登录"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="250dp"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:textSize="30dp"
+        android:textColor="#FF0000"/>
+    
+    <Button 
+        android:id="@+id/zhanghao"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:text="账密登录"
+        android:textSize="30dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="240dp"
+        android:textColor="#FF0000"/>
+
+</LinearLayout>

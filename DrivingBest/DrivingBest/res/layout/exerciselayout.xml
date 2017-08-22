@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<LinearLayout android:orientation="vertical"
+		android:layout_height="wrap_content" 
+		android:layout_width="fill_parent"
+		android:layout_weight="4" 
+		android:scrollbars="vertical"
+		android:background="#FAF0E6">
+
+		<TextView android:id="@+id/pro_text" 
+		    android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:text="test"
+			android:textColor="#000000"
+			android:textSize="20dp"/>
+		<ImageView android:id="@+id/imageview" 
+		    android:layout_width="200dp"
+			android:layout_height="200dp" 
+			android:scaleType="fitCenter"/>
+		<RadioGroup android:id="@+id/radioGroup"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			>
+			<RadioButton android:id="@+id/radioA"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:text="A"
+				android:textSize="20dp"
+				android:textColor="#000000"
+				/>
+
+			<RadioButton android:id="@+id/radioB"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:text="B"
+				android:textSize="20dp"
+				android:textColor="#000000"/>
+			
+
+			<RadioButton android:id="@+id/radioC"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:text="C"
+				android:textSize="20dp"
+				android:textColor="#000000"/>
+			
+			<RadioButton android:id="@+id/radioD"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:text="D"
+				android:textSize="20dp"
+				android:textColor="#000000"/>
+		</RadioGroup>
+
+	</LinearLayout>
+
+
+
+	<LinearLayout 
+	    android:orientation="vertical"
+		android:layout_height="wrap_content" 
+		android:layout_width="fill_parent"
+		android:layout_weight="1"
+		android:background="#FAF0E6">
+		<TextView android:id="@+id/promptText" 
+		    android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:background="#FAF0E6">
+		</TextView>
+	</LinearLayout>
+
+	<LinearLayout 
+	    android:orientation="horizontal"
+		android:layout_height="100dp" 
+		android:layout_width="fill_parent"
+		android:layout_weight="1" 
+		android:gravity="bottom"
+		android:background="#F16C4D">
+
+		<Button 
+		    android:id="@+id/forwordBtn" 
+		    android:layout_width="wrap_content"
+			android:layout_height="match_parent" 
+			android:text="上一题"
+			android:background="#00000000"
+			android:drawableTop="@drawable/shangyiti"
+			android:textColor="#000000"/>
+
+		<Button 
+		    android:id="@+id/checkBtn" 
+		    android:layout_width="wrap_content"
+		    android:layout_height="match_parent"
+			android:text="确认"
+			android:layout_marginTop="30dp"
+			android:layout_marginLeft="40dp"
+			android:background="#00000000"
+			android:drawableTop="@drawable/sure"
+			android:textColor="#000000"/>
+
+		<Button 
+		    android:id="@+id/addWAsetBtn" 
+		    android:layout_width="wrap_content"
+			android:layout_height="match_parent" 
+			android:text="收藏"
+			android:layout_marginLeft="40dp"
+			android:layout_marginTop="30dp"
+			android:background="#00000000"
+			android:drawableTop="@drawable/shoucang"
+			android:textColor="#000000"/>
+
+		<Chronometer
+			android:id="@+id/exam_chronometer"
+			android:layout_width="100px"   
+			android:layout_height="wrap_content"  
+			android:gravity="center_horizontal"
+			android:textSize="20dp"
+			android:layout_marginLeft="40dp"
+			android:visibility="gone"/>
+			<!-- android:visibility="gone"/> -->
+		<Button 
+		    android:id="@+id/nextBtn" 
+		    android:layout_width="wrap_content"
+			android:layout_height="match_parent" 
+			android:text="下一题"
+			android:layout_marginLeft="40dp"
+			android:background="#00000000"
+			android:drawableTop="@drawable/xiayiti"
+			android:textColor="#000000"/>
+	</LinearLayout>
+</LinearLayout>

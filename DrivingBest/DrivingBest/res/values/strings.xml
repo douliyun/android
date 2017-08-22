@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello"></string>
+    <string name="app_name">DrivingBest</string>
+    <string name="prompt_wrong">"很可惜！答错了，正确答案为 "</string>
+    <string name="prompt_right">"恭喜你！答对了"</string>
+    <string name="passwd_different">密码不一样</string>
+    <string name="register_success">注册成功</string>
+    <string name="name_haved">用户已存在</string>
+    <string name="login_success">登录成功</string>
+    <string name="login_fail">登录失败</string>
+    <string name="account_empty">用户名为空></string>
+    <string name="pwd_empty">密码为空</string>
+    <string name="cancle_success">注销成功</string>
+    <string name="cancle_fail">注销失败</string>
+    <string name="title_activity_login_method">LoginMethod</string>
+    <string name="pwd_new_empty">新密码为空</string>
+    <string name="pwd_check_empty">没有确认新密码</string>
+    <string name="pwd_not_the_same">两次密码不一样</string>
+    <string name="update_fail">更改失败</string>
+    <string name="pwd_not_fit_user">用户名和密码不匹配</string>
+    <string name="name_not_exist">用户不存在</string>
+    <string name="update_success">更改成功</string>
+
+</resources>
